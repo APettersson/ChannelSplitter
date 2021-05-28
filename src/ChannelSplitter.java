@@ -10,7 +10,6 @@ import javafx.scene.paint.Color;
 public abstract class ChannelSplitter {
 
 	public static WritableImage[] getChannels(Image image){
-		System.out.println("got here!");
 		double width = image.getWidth();
 		double height = image.getHeight();
 		Canvas red = new Canvas(width, height);
